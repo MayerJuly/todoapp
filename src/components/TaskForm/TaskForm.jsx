@@ -9,7 +9,7 @@ const TaskForm = ({create}) => {
     const addNewTask = (e) => {
         if(task.title) {
             if(e.which === 13) {
-                console.log()
+
                 e.preventDefault();
                 const newTask = {
                     ...task, id: Date.now()
