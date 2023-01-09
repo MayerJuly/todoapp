@@ -1,0 +1,58 @@
+.taskTitle{
+    font-size:22px;
+    width: 100%;
+    max-width: 500px;
+    word-wrap: break-word;
+    padding: 10px 0;
+    margin-right: 15px;
+}
+.taskContent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.task__buttons {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.taskButton {
+    margin-right: 15px;
+}
+
+.taskSaveButton {
+    margin-right: 15px;
+    min-height: 40px;
+}
+
+.taskButton:last-child {
+    margin-right: 0;
+}
+
+.taskInput {
+    margin-right: 30px;
+}
+
+.done {
+    text-decoration: line-through 1px gray;
+    color: gray;
+}
+.buttonDone {
+    background: gray;
+}
+
+
+@media(max-width:600px) {
+    .taskTitle{
+        font-size:16px;
+    }
+    .taskButton {
+        margin-right: 10px;
+    }
+    .task__buttons {
+        margin-right: 10px;
+    }
+
+
+}

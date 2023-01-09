@@ -1,0 +1,38 @@
+.task__item {
+    width: 100%;
+    min-height: 60px;
+    border: 1px solid #17416B;
+    border-bottom:0;
+    display: flex;
+    align-items: center;
+}
+.task__item:last-child {
+    border-bottom: 1px solid #17416B;
+}
+.task__number {
+    align-self:stretch;
+    font-size:24px;
+    font-weight: 400;
+    width: 50px;
+    margin-right: 10px;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right:1px solid #17416B;
+}
+
+@media(max-width:600px) {
+    .task__number {
+        font-size:16px;
+        flex-shrink: 1;
+    }
+
+
+}
+
+@media(max-width: 430px) {
+    .task__number {
+
+    }
+}

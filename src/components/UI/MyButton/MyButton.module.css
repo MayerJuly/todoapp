@@ -1,0 +1,31 @@
+.myButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    min-height:30px;
+    color:#fff;
+    font-size:18px;
+    font-weight: 500;
+    background: #17416B;
+
+}
+
+.green {
+    background: #84cd1b;
+}
+.red {
+    background: #455666;
+}
+.lightblue {
+    background: #9CC1E6;
+}
+
+@media(max-width:600px) {
+    .myButton {
+        font-size:13px;
+        min-width: 50px;
+    }
+
+
+}

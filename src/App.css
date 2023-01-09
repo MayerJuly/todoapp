@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+a, p {
+  font-family: inherit;
+  font-size:inherit;
+  color:inherit;
+  text-decoration: none;
+}
+
+.header {
+  min-height: 60px;
+  background: #17416B;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.header__title {
+  font-size:26px;
+  font-weight: 500;
+  color:#fff;
+
+
+}
+
+
+
+
+
+
